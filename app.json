@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "NoteDat",
+    "slug": "todo-list-app",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tdl-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thisisjsk.notedat"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "224ccd0d-10cd-4a8c-90f9-317217f0fe0c"
+      }
+    },
+    "owner": "thisisjsk"
+  }
+}
